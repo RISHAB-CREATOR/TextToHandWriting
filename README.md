@@ -12,6 +12,8 @@
 Credit : Codded By Rishab Gautam , Website Designer Saurabh , 
 </p>
 we both help each other to make this website true !!!
+</p>
+Contact Me Through Discord : Rishab Uzumaki#9901
 
 ## 🌠 Output
 
