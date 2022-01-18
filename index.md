@@ -1,36 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@RISHAB-CREATOR 
-This repository has been archived by the owner. It is now read-only.
-saurabhdaware
-/
-text-to-handwriting
-Public archive
-Code
-Issues
-31
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-text-to-handwriting/index.html
-@saurabhdaware
-saurabhdaware content: remove sponsor logos
-Latest commit a4644bf on Jan 29, 2021
- History
- 15 contributors
-@saurabhdaware@pathakshashank17@nikhilbhatt@anuraghazra@anirudh1200@StTronn@mtegarsantosa@Tushar-OP@subodhk01@subho57@ShivamMundhra@prafulla-codes
-658 lines (626 sloc)  24.5 KB
-   
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
