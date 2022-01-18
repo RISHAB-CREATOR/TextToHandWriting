@@ -1,6 +1,6 @@
 <p align="center">
 <img alt="Text-to-handwriting title image" src="https://res.cloudinary.com/saurabhdaware/image/upload/w_400/v1586015094/saurabh2019/text-to-handwriting-title.png" /> 
-<br/><b><a href="https://saurabhdaware.github.io/text-to-handwriting/">https://saurabhdaware.github.io/text-to-handwriting/</a></b><br/><br/>By Rishab Gautam " 
+<br/><b><a href="https://saurabhdaware.github.io/text-to-handwriting/">Click the link to get the tool : https://saurabhdaware.github.io/text-to-handwriting/</a></b><br/><br/>By Rishab Gautam " 
   looks like handwriting😛
                                                                                                                                                   
 </p>
