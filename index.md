@@ -121,26 +121,63 @@
         /></span>
       </button>
       <h1>Text to Handwriting</h1>
-      <section style="font-size: 1rem; padding: 20px 0px;">
-        <div>
-          Hey everyone! Thank you for supporting Text to Handwriting 🎉
-          <ul class="info-ul">
-            <li>
-              If you want to use additional fonts, you can check out comments in
-              <a
-                href="https://github.com/saurabhdaware/text-to-handwriting/issues/78"
-                >text-to-handwriting issue#78</a
-              >. After downloading the .ttf or .otf file of font, you can import
-              it with "Upload your Handwriting Font" button.
-            </li>
-            <li>
-              I made this tool for fun and didn't expect the response I'm
-              getting right now. Since this tool is not my full-time job, I may
-              be late responding for the feature requests and emails regarding
-              this tool.
-            </li>
-          </ul>
-          <br />
+      <section id="donations" style="font-size: 1rem; padding: 20px 0px;">
+        <div class="display-flex responsive-flex">
+          <div class="flex-1">
+            <div id="covid-donations">
+              <b>Important!</b><br />
+              <br />
+              Hey, my country (India) is going through the second wave of covid
+              and our healthcare system has collapsed. I request you to donate
+              any amount you can to these NGOs that are helping people with
+              oxygen, food, and a lot of other resources.
+              <ul>
+                <li>
+                  <a href="https://hemkuntfoundation.com/donate-now/"
+                    >Hemkunt Foundation</a
+                  >
+                  (Helping people with oxygen)
+                </li>
+                <li>
+                  <a href="https://indiafightscorona.giveindia.org/"
+                    >indiafightscorona.giveindia.org</a
+                  >
+                  (Multiple fundraisers related to covid)
+                </li>
+                <li>
+                  More at
+                  <a href="https://donate.indiacovidresources.in/"
+                    >https://donate.indiacovidresources.in/</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <br /><br />Also, This webpage has had 100k+ pageviews this April so
+            far. <br />
+            <br />If you donate more than 8,000 ₹ to any of the covid
+            fundraisers, I will put up your company/project logo or any image
+            here for a month. <br /><br />
+            DM me your receipts on
+            <a href="https://twitter.com/saurabhcodes">Twitter @saurabhcodes</a>
+          </div>
+          <div style="padding: 40px 20px;">
+            <br /><img
+              width="200"
+              src="https://res.cloudinary.com/saurabhdaware/image/upload/v1619450053/Screenshot_2021-04-26_at_8.43.00_PM_j4relg.png"
+              alt="google analytics chart showing 109k pageviews in april"
+            />
+          </div>
+        </div>
+        <div class="donations-list">
+          <h2>Some Kind People Who Donated for The Covid Relief</h2>
+          <a href="https://piyushbanik.io/">
+            <img
+              style="border-radius: 10px;"
+              height="80"
+              src="https://res.cloudinary.com/saurabhdaware/image/upload/c_scale,h_80/v1620744872/brands/logo-ind7.png"
+              alt="Induni Technlogies"
+            />
+          </a>
         </div>
       </section>
       <section class="generate-image-section">
@@ -317,11 +354,23 @@
                   </div>
                   <div class="postfix-input" data-postfix="px">
                     <label for="word-spacing">Word Spacing</label>
-                    <input id="word-spacing" min="0" value="0" type="number" />
+                    <input
+                      id="word-spacing"
+                      min="0"
+                      max="100"
+                      value="0"
+                      type="number"
+                    />
                   </div>
                   <div class="postfix-input" data-postfix="pt">
                     <label for="letter-spacing">Letter Spacing</label>
-                    <input id="letter-spacing" value="0" type="number" />
+                    <input
+                      id="letter-spacing"
+                      min="0"
+                      max="40"
+                      value="0"
+                      type="number"
+                    />
                   </div>
                 </div>
               </fieldset>
@@ -450,6 +499,11 @@
       <section id="sponsors">
         <h2>🤗 Sponsors</h2>
         <p>
+          Donate 8,000INR to any COVID Fundraisers/NGOs and get your logo at the
+          top! DM me receipts on
+          <a href="https://twitter.com/saurabhcodes/">Twitter @saurabhcodes</a>
+        </p>
+        <!-- <p>
           This tool is completely free and neither stores any of your data for
           money so maybe you can consider being patron or making an one time
           payment with buy me a coffee to help sustain 🤗
@@ -474,20 +528,12 @@
               src="https://cdn.buymeacoffee.com/buttons/default-yellow.png"
             />
           </a>
-        </p>
+        </p> -->
       </section>
 
       <section id="github-contributors">
         <h2>👫 GitHub Contributors</h2>
         <div class="project-contributors" id="project-contributors"></div>
-        <div style="padding: 20px 5px;">
-          Text-to-Handwriting is an open-source tool built with HTML, CSS, and
-          JavaScript! <br />You can check out
-          <a
-            href="https://github.com/saurabhdaware/text-to-handwriting/blob/master/CONTRIBUTING.md"
-            >CONTRIBUTING.md on GitHub</a
-          >, if you want to contribute.
-        </div>
       </section>
 
       <section id="faq">
@@ -519,18 +565,24 @@
             option to adjust the gap.
           </p>
         </div>
+        <div>
+          <h3>4. Where can I request for features and report bugs?</h3>
+          <p>
+            You can't. This is a read-only project and there will not be any
+            improvements in the project
+          </p>
+        </div>
       </section>
     </main>
     <footer style="padding: 40px 0px 10px 0px;">
-      Thank you for using Text to Handwriting! If you have any
-      questions/suggestions/feedback, you can drop me a message on
+      Thank you for using Text to Handwriting! You can follow me on
       <a href="https://twitter.com/saurabhcodes">Twitter @saurabhcodes</a>
       <br /><br />Do star the
       <a href="https://github.com/saurabhdaware/text-to-handwriting"
         >Text-to-Handwriting GitHub Repository</a
       >
       and If you're using it for writing assignments, make sure you use it at
-      your own risk and If it fails and your teacher catch this tool, ask them
+      your own risk and If it fails and your teacher finds this tool, ask them
       to star my GitHub as well :D <br />
       <br />byeeee! <br /><br />
       ~ Saurabh (<a href="https://saurabhdaware.in">https://saurabhdaware.in</a
@@ -653,6 +705,22 @@
       } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
       }
+
+      document.querySelectorAll('#donations a[href]').forEach((anchorEl) => {
+        anchorEl.addEventListener('click', (e) => {
+          const tracker = ga.getAll()[0];
+          let label;
+          if (e.target.href) {
+            label = e.target.href;
+          } else {
+            label = e.target.parentElement.href;
+          }
+
+          if (tracker) {
+            tracker.send('event', 'Donation Link', 'Click', label);
+          }
+        });
+      });
     </script>
   </body>
 </html>
