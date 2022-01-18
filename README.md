@@ -14,6 +14,8 @@ Credit : Codded By Rishab Gautam , Website Designer Saurabh ,
 we both help each other to make this website true !!!
 </p>
 Contact Me Through Discord : Rishab Uzumaki#9901
+</p>
+Also Join Our server https://dsc.gg/thestevesmp
 
 ## 🌠 Output
 
