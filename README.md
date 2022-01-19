@@ -11,7 +11,7 @@
 
 Credit : Made By Rishab Gautam
 </p>
-It take me 1 Month To Complete this project so star this project !!!
+It took me 1 Month To Complete this project so star this project !!!
 </p>
 Contact Me Through Discord : Rishab Uzumaki#9901
 </p>
