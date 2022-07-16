@@ -15,7 +15,7 @@ It took me 1 Month To Complete this project so star this project !!!
 </p>
 Contact Me Through Discord : Rishab Uzumaki#9901
 </p>
-Also Join Our server https://dsc.gg/thestevesmp
+Also Join Our server https://discord.gg/8qkr9SUNTb
 
 ## 🌠 Output
 
